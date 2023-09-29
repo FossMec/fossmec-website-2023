@@ -1,8 +1,59 @@
-# React + Vite
+# FOSSMec Website 2023
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the FOSSMec Website 2023, built using Vite and React! This repository contains the source code for the FOSSMec website. Follow the instructions below to set up the project locally on your machine.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you begin, make sure you have the following installed on your system:
+
+- Node.js: Download and install Node.js from [nodejs.org](https://nodejs.org/).
+- Git: Download and install Git from [git-scm.com](https://git-scm.com/).
+
+## Clone the Repository
+
+To get started, clone this repository to your local machine using the following command:
+
+```sh
+git clone https://github.com/FossMec/fossmec-website-2023.git
+```
+
+## Navigate to the Project Directory
+
+Change your current directory to the cloned project folder:
+
+```sh
+cd fossmec-website-2023
+```
+
+## Install Dependencies
+
+Install the project dependencies using npm (Node Package Manager) with the following command:
+
+```sh
+npm install
+```
+
+## Start the Development Server
+
+Once the installation is complete, you can start the development server by running:
+
+```sh
+npm run dev
+```
+
+This will start the development server and you can view the app in your browser at `http://localhost:3000`.
+
+## Additional Scripts
+
+In addition to `npm run dev` for starting the development server, you can use the following npm scripts:
+
+- `npm run build`: Build the app for production.
+- `npm run serve`: Preview the production build locally.
+
+## Contributing
+
+If you would like to contribute to the FOSSMec Website 2023, please create a pull request with your changes. We welcome contributions from the community!
+
+---
+
+Happy coding! If you have any questions or issues, feel free to reach out.
