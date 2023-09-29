@@ -44,72 +44,14 @@ const Hero = () => {
               </p>
             </div>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              DebUtsav is an upcoming conference that is set to bring together
-              members of the Debian community to celebrate Free and Open Source
-              Software (FOSS).
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus illo impedit eveniet incidunt sed voluptate natus nostrum nobis necessitatibus cumque placeat fuga quidem, esse quasi sint quod minima ipsam aliquid?
             </p>
             <div className="flex gap-2">
-              <button className="inline-flex register bg-red   text-red-500 items-center justify-center px-10 py-3 mr-3 text-xl font-medium text-center   bg-primary-700 hover:bg-primary-800 ">
-                Registeration Closed
-                {/* <svg
-                className="w-5 h-5 ml-2 -mr-1"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg> */}
-              </button>
+        
 
-              <a href="/#about">
-                <button
-                  data-aos="fade-in"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in-sine"
-                  data-aos-duration="600"
-                  data-aos-delay="500"
-                  data-aos-anchor="home"
-                  className="inline-flex  about-btn bg-transparent outline-maroon outline text-maroon  items-center justify-center px-10 py-3 mr-3 text-xl font-medium text-center   "
-                >
-                  About
-                  {/* <svg
-                className="w-5 h-5 ml-2 -mr-1"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg> */}
-                </button>
-              </a>
             </div>
           </div>
-          <div
-            data-aos="fade-in"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="600"
-            data-aos-delay="500"
-            className=" lg:mt-0 lg:col-span-5 lg:flex"
-          >
-            {/* <img
-              data-aos="fade-zoom-in"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-              data-aos-delay="800"
-              src={image}
-              alt="mockup"
-            /> */}
-          </div>
+      
         </div>
       </div>
     </div>
