@@ -1,6 +1,7 @@
 
 import "./Navbar.css";
 import { useState } from "react";
+import logo from '../../assets/fosspng.svg'
 
 const Navbar = () => {
   const [scrollbar, setscrollbar] = useState(false);
@@ -21,11 +22,13 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-screen h-[70px] flex flex-row items-center justify-between px-6 md:px-0 md:justify-around py-3 fixed top-0 z-40  ${
+      className={`w-screen h-[70px] flex flex-row items-center  px-6 md:px-0 justify-center py-3 fixed top-0 z-40  ${
         scrollbar ? "bg-white text-black" : "bg-white"
       }`}
     >
-     
+      <a className="bg-blue-900 rounded-[999px] justify-start" href="/">
+        <img src={logo} alt="debutsav kochi logo" className="h-[50px] items-start justify-start" />
+      </a>
       <button
         onClick={handleHamburger}
         className="text-black text-4xl block md:hidden mr-3"
@@ -99,9 +102,7 @@ const Navbar = () => {
             Contact
           </span>
         </a>
-      
       </div>
-      
     </div>
   );
 };
