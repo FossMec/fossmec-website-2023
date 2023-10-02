@@ -1,0 +1,61 @@
+/* Navbar container */
+.navbar {
+    background-color: #041424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Adjust as needed for spacing */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 15vh;
+  }
+  
+  /* Logo styles */
+  .navbar-logo img {
+    max-width: auto;
+    height: 12vh;
+  }
+  
+  /* Navbar links */
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px; /* Adjust the space between links */
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-links a:hover {
+    color: white; /* Change color on hover */
+  }
+  
+  /* Contact button */
+  .navbar-button a {
+    text-decoration: none;
+  }
+  
+  .navbar-button button {
+    border-radius: 3.125rem;
+    background: #F5A212;
+    color: #041424;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 2px 4px 4px 1px #F9CD7F;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .navbar-button button:hover {
+    background: #041424; /* Change background color on hover */
+    color: #F5A212; /* Change text color on hover */
+  }
+  
