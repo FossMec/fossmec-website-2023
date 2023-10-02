@@ -57,7 +57,7 @@ If you would like to contribute to the FOSSMec Website 2023, please create a pul
 ---
 ### Our Contributors ✨
 <a href="https://github.com/FossMec/fossmec-website-2023/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=FossMec/fossmec-website-2023?max=100" />
+  <img src="https://contrib.rocks/image?repo=FossMec/fossmec-website-2023?" />
 </a>
 
 Happy coding! If you have any questions or issues, feel free to reach out.
