@@ -50,6 +50,9 @@ In addition to `npm run dev` for starting the development server, you can use th
 - `npm run build`: Build the app for production.
 - `npm run serve`: Preview the production build locally.
 
+  ## Design File
+ - Link to [Figma file](https://www.figma.com/file/uhKzzRU2pPsW4nUvT8ssxY/FOSS-Website?node-id=0%3A1&mode=dev)
+
 ## Contributing
 
 If you would like to contribute to the FOSSMec Website 2023, please create a pull request with your changes. We welcome contributions from the community!
