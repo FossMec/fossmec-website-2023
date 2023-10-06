@@ -1,15 +1,15 @@
 const Footer = () => {
   return (
-    <div className="bg-slate-500 relative bottom-0 text-white flex pt-2  flex-col w-full justify-center items-center gap-6">
+    <div className="bg-[#071330] relative bottom-0 text-white flex pt-2  flex-col w-full justify-center items-center gap-6">
       <p className="text-center">
-        Reach us at{" "}
+        {/* Reach us at{" "} */}
         <a
           className="hovera:underline-white hover:underline"
           href="mailto:foss@mec.ac.in"
         >
-          foss@mec.ac.in
+          {/* foss@mec.ac.in */}
         </a>{" "}
-        to know more{" "}
+        {/* to know more{" "} */}
       </p>
       <div className="flex flex-row justify-center items-center">
         <a
@@ -130,8 +130,8 @@ const Footer = () => {
           </svg>
         </a>
       </div>
-      <div className="p-2 text-center text-sm flex justify-center items-center w-full bg-[#760D29]">
-        Made with ❤️ by FOSSMEC
+      <div className="p-2 text-center text-sm flex justify-center items-center w-full bg-[#071330]">
+        Copyright @ 2023 | FOSSMEC
       </div>
     </div>
   );
