@@ -1,0 +1,59 @@
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.box-cont {
+  width: 433px;
+  height: 546px;
+  flex-shrink: 0;
+  border-radius: 7px;
+}
+
+.inner-box {
+  width: 366px;
+  height: 257px;
+  flex-shrink: 0;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.main-cont {
+  height: 1024px;
+}
+
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+  .sub-cont {
+    flex-direction: column;
+  }
+
+  .main-cont {
+    height: max-content;
+    overflow: hidden;
+  }
+
+  .box-cont {
+    margin-bottom: 16px;
+    width: 80%;
+  }
+  
+  .inner-box{
+    width: 90%;
+  }
+}
