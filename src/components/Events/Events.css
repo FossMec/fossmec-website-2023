@@ -28,6 +28,7 @@ h3 {
 
 .main-cont {
   height: 1024px;
+  overflow: hidden;
 }
 
 p {
