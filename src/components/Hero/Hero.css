@@ -12,9 +12,3 @@
     background-color: #F5A212;
     box-shadow: 2px 4px 4px 1px #F9CD7F;
 }
-.hero-headline{
-    background: linear-gradient(264deg, #778089 -35.19%, #d5d9de 160.91%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
