@@ -7,8 +7,8 @@ const Boxes = () => {
         <div className="bg-[#E0E2E3] rounded inner-box "></div>
       </div>
       <div className="mx-8">
-        <h3 className="text-[#E6F4F4] text-[36px] font-semibold mb-1">TITLE</h3>
-        <p className="text-[#D9D9D9] text-[24px]">
+        <h3 className="text-[#E6F4F4] text-[32px] font-semibold mb-1">TITLE</h3>
+        <p className="text-[#D9D9D9] text-[20px] ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore{" "}
         </p>
