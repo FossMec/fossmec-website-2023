@@ -11,8 +11,26 @@
       rel="stylesheet"
     />
     <title>Vite + React</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@200&display=swap');
+        h1 {
+        text-align: center; 
+        color: white; 
+        font-size: 55px;
+        font-family: Inter; 
+        font-weight: 600;
+        }
+        @media all and (max-width: 750px) {
+              h1 {
+                font-size: 42px;
+                }
+        }
+    </style>            
   </head>
-  <body>
+  <body style="background: #041424">
+    <h1>
+        ABOUT US
+    </h1>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
