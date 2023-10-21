@@ -1,9 +1,9 @@
-
+import logo from "../../assets/fosspng.svg";
 
 const Footer = () => {
   return (
     <div className="bg-fosspurple w-full h-[200px]">
-      <img src="https://s3-alpha-sig.figma.com/img/0744/3a6a/5668e3e3d25cb5cc5228f2627f82c196?Expires=1697414400&Signature=A7Ume9YayB4ViVK~hWUqmKab-nhQlfVnhw2ehy4Qu65UQSRJdB5s4bOa9NbW6qVvXF4ZmGnk39m7RpryJ-Q9XHwMBMCW2~eWOaaJ0M7oXMok4h3hHMqL6ZXfdVsbqwusYBFw2voG6G1N6p3TglgzcbV7UohLjHpsyIrfC4l7MZ672vSn7olu08uIjJysxDA-5m3UwVe-5Dnfzu9n674HoLHWMw55mtb83vIaMNlOWKnODt1DAVp3BhwvRQNOWjhmteGltTvtzaav-6pesxy5BZA4WdNlRkceje9qvFo9mr6eoMlJafITb-4xXyJHDo1q4S0SPwVa8Qi-X~CkGfUKFw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="fossmec-logo"
+      <img src={logo} alt="fossmec-logo"
         className=" max-w-[120px] ml-auto mr-auto pt-[10px] pb-[6px]" />
         <div className="flex flex-row justify-center w-[150px] h-[15px] justify-between ml-auto mr-auto">
 
