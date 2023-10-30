@@ -1,0 +1,48 @@
+.about-us {
+    display: flex;
+    height: 100vh;
+    padding: 77px 0px 848px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #041b3e;
+  }
+  
+  .about-us-head {
+    color: #fff;
+    font-family: Inter;
+    font-size: 4.75em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 800px) {
+    .about-us-head {
+      font-size: 4em;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .about-us-head {
+      font-size: 3.8em;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .about-us-head {
+      font-size: 3.75em;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .about-us-head {
+      font-size: 3.5em;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .about-us-head {
+      font-size: 3em;
+    }
+  }
